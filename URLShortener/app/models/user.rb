@@ -11,3 +11,5 @@ class User < ApplicationRecord
     #add_index :users, :email, unique: true
     validates :email, presence: true, uniqueness: true
 end
+
+
